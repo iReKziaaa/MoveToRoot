@@ -1,0 +1,28 @@
+# Détection automatique des fichiers texte
+* text=auto
+
+# Code source
+*.cs      text diff=csharp
+*.csproj  text diff=csharp
+*.sln     text
+
+# Documentation
+*.md      text diff=markdown
+
+# Scripts Windows
+*.bat     text eol=crlf
+*.cmd     text eol=crlf
+*.ps1     text eol=crlf
+
+# Fichiers binaires
+*.exe     binary
+*.dll     binary
+*.pdb     binary
+*.ico     binary
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.webp    binary
+*.zip     binary
+*.7z      binary
