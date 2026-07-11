@@ -1,23 +1,21 @@
 # Détection automatique des fichiers texte
 * text=auto
 
-# Code source
-*.cs      text diff=csharp
-*.csproj  text diff=csharp
-*.sln     text
+# Code source — affiché comme C# sur GitHub
+*.cs      text diff=csharp linguist-language=C#
 
-# Documentation
-*.md      text diff=markdown
+# Documentation — ne compte pas dans les stats de langage
+*.md      text diff=markdown linguist-documentation
 
 # Scripts Windows
-*.bat     text eol=crlf
-*.cmd     text eol=crlf
-*.ps1     text eol=crlf
+*.bat     text eol=crlf linguist-documentation
+*.cmd     text eol=crlf linguist-documentation
+*.ps1     text eol=crlf linguist-documentation
 
-# Fichiers binaires
-*.exe     binary
-*.dll     binary
-*.pdb     binary
+# Fichiers binaires — exclus des stats de langage
+*.exe     binary linguist-generated=true
+*.dll     binary linguist-generated=true
+*.pdb     binary linguist-generated=true
 *.ico     binary
 *.png     binary
 *.jpg     binary
