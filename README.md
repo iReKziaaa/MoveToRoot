@@ -14,7 +14,7 @@ MoveToRoot parcourt récursivement un dossier et **déplace** chaque fichier tro
 - Renomme automatiquement les doublons (`fichier (1).txt`, `fichier (2).txt`, …)
 - Supprime les sous-dossiers vides après déplacement
 - Exécutable autonome — aucune installation requise
-
+- Fonctionne avec tous les types de fichiers
 ## Téléchargement
 
 Téléchargez **`MoveToRoot.exe`** depuis l'onglet [Releases](../../releases).
