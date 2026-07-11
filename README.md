@@ -67,7 +67,7 @@ MonDossier/
 Clonez le dépôt, puis compilez avec le compilateur C# inclus dans Windows :
 
 ```powershell
-git clone https://github.com/VOTRE-UTILISATEUR/MoveToRoot.git
+git clone https://github.com/iReKziaaa/MoveToRoot.git
 cd MoveToRoot
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /out:MoveToRoot.exe MoveToRoot.cs
 ```
